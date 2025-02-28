@@ -1,0 +1,126 @@
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.exe
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.deps.json
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.runtimeconfig.json
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.pdb
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.Interfaces.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.System.Drawing.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.csproj.AssemblyReference.cache
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.AssemblyInfoInputs.cache
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.AssemblyInfo.cs
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.csproj.CoreCompileInputs.cache
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmen.C231C52B.Up2Date
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.dll
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\refint\Assigmentkcs.dll
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.pdb
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.genruntimeconfig.cache
+D:\Task Kcs\Assigmentkcs\obj\Debug\net9.0\ref\Assigmentkcs.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\ClosedXML.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\ClosedXML.Parser.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\DocumentFormat.OpenXml.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\DocumentFormat.OpenXml.Framework.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\ExcelNumberFormat.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\RBush.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\SixLabors.Fonts.dll
+D:\Task Kcs\Assigmentkcs\bin\Debug\net9.0\System.IO.Packaging.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.exe
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.deps.json
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.runtimeconfig.json
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.pdb
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\ClosedXML.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\ClosedXML.Parser.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\DocumentFormat.OpenXml.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\DocumentFormat.OpenXml.Framework.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.Interfaces.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.System.Drawing.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\ExcelNumberFormat.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\RBush.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\SixLabors.Fonts.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\System.IO.Packaging.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.csproj.AssemblyReference.cache
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.AssemblyInfoInputs.cache
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.AssemblyInfo.cs
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.csproj.CoreCompileInputs.cache
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmen.C231C52B.Up2Date
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.dll
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\refint\Assigmentkcs.dll
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.pdb
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.genruntimeconfig.cache
+D:\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\ref\Assigmentkcs.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.exe
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.deps.json
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.runtimeconfig.json
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Assigmentkcs.pdb
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\ClosedXML.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\ClosedXML.Parser.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\DocumentFormat.OpenXml.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\DocumentFormat.OpenXml.Framework.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.Interfaces.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\EPPlus.System.Drawing.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\ExcelNumberFormat.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\RBush.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\SixLabors.Fonts.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\System.IO.Packaging.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.csproj.AssemblyReference.cache
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.AssemblyInfoInputs.cache
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.AssemblyInfo.cs
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.csproj.CoreCompileInputs.cache
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmen.C231C52B.Up2Date
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\refint\Assigmentkcs.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.pdb
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.genruntimeconfig.cache
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\ref\Assigmentkcs.dll
