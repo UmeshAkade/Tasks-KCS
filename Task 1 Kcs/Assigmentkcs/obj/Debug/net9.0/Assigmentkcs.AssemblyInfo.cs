@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Assigmentkcs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cb626d6002ca2f0c763309b3a38f937ec6893ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ff378da650ef7d538c9126e68dff5655e46731c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Assigmentkcs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Assigmentkcs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

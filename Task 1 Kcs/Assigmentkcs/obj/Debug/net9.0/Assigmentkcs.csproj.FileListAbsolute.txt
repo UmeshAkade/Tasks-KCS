@@ -124,3 +124,4 @@ D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\refint\Assigment
 D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.pdb
 D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.genruntimeconfig.cache
 D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\ref\Assigmentkcs.dll
+D:\Tasks KCS\Tasks-KCS\Task 1 Kcs\Assigmentkcs\obj\Debug\net9.0\Assigmentkcs.sourcelink.json
