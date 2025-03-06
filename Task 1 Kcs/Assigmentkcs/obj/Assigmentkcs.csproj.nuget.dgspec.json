@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tasks KCS\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj": {}
+    "D:\\Kcs Task\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj": {}
   },
   "projects": {
-    "D:\\Tasks KCS\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj": {
+    "D:\\Kcs Task\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tasks KCS\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj",
+        "projectUniqueName": "D:\\Kcs Task\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj",
         "projectName": "Assigmentkcs",
-        "projectPath": "D:\\Tasks KCS\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj",
+        "projectPath": "D:\\Kcs Task\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Tasks KCS\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\obj\\",
+        "outputPath": "D:\\Kcs Task\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

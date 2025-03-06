@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7C0q/UDtNQQ=",
+  "dgSpecHash": "RWLueUnZUJ8=",
   "success": true,
-  "projectFilePath": "D:\\Tasks KCS\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj",
+  "projectFilePath": "D:\\Kcs Task\\Tasks-KCS\\Task 1 Kcs\\Assigmentkcs\\Assigmentkcs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",

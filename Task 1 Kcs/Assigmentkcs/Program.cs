@@ -5,36 +5,35 @@ using System.Text.Json;
 using System.Text.RegularExpressions;
 using ClosedXML.Excel;
 
-// Class to store file paths from the config file
+// Class to read the configuration file containing input and output file paths
 class Config
 {
-    public string? InputFilePath { get; set; } // Path of the input Excel file
-    public string? OutputFilePath { get; set; } // Path where output Excel file will be saved
+    public string? InputFilePath { get; set; }
+    public string? OutputFilePath { get; set; }
 }
 
+// Class to handle data masking and generating random PAN and account numbers
 class DataMasking
 {
     private static Random random = new Random();
 
-    // Function to create a random PAN (Permanent Account Number) in the format ABCDE1234F
+    // Generates a random PAN number following the standard format (AAAAA9999A)
     public static string GenerateRandomPAN()
     {
         string letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        string numbers = "0123456789";
-        return new string(new char[] {
-            letters[random.Next(26)], letters[random.Next(26)], letters[random.Next(26)], letters[random.Next(26)], letters[random.Next(26)],
-            numbers[random.Next(10)], numbers[random.Next(10)], numbers[random.Next(10)], numbers[random.Next(10)],
-            letters[random.Next(26)]
+        string firstFive = new string(new char[] {
+            letters[random.Next(26)], letters[random.Next(26)], letters[random.Next(26)], 
+            letters[random.Next(26)], letters[random.Next(26)]
         });
+        string fourDigits = random.Next(0, 10000).ToString("D4");
+        string lastLetter = letters[random.Next(26)].ToString();
+        return firstFive + fourDigits + lastLetter;
     }
 
-    // Function to create a random 8-digit account number
+    // Generates a random 8-digit account number
     public static string GenerateRandomAccountNumber()
     {
-        char[] digits = new char[8];
-        for (int i = 0; i < 8; i++)
-            digits[i] = (char)('0' + random.Next(10)); // Generates a random digit (0-9)
-        return new string(digits);
+        return random.Next(10000000, 100000000).ToString();
     }
 }
 
@@ -42,76 +41,115 @@ class Program
 {
     static void Main()
     {
-        // Define the config file path
         string configFilePath = "config.json";
 
-        // Check if the config file exists; if not, show an error and stop the program
+        // Check if the configuration file exists
         if (!File.Exists(configFilePath))
         {
             Console.WriteLine("Config file not found.");
             return;
         }
 
-        // Read the config file and convert it into a Config object
+        // Read and deserialize the JSON configuration file
         string jsonConfig = File.ReadAllText(configFilePath);
         var config = JsonSerializer.Deserialize<Config>(jsonConfig);
 
-        // Check if file paths are missing in the config file
+        // Validate if input and output file paths are provided
         if (config == null || string.IsNullOrEmpty(config.InputFilePath) || string.IsNullOrEmpty(config.OutputFilePath))
         {
             Console.WriteLine("Invalid file paths in config file.");
             return;
         }
 
-        // Dictionaries to store masked values
-        Dictionary<string, string> panMapping = new Dictionary<string, string>(); // For PAN numbers
-        Dictionary<string, string> accountMapping = new Dictionary<string, string>(); // For account numbers
-        Dictionary<string, string> nameMapping = new Dictionary<string, string>(); // For names
+        // Dictionaries to store mappings for PAN, account numbers, and names to ensure consistency
+        Dictionary<string, string> panMapping = new Dictionary<string, string>();
+        Dictionary<string, string> accountMapping = new Dictionary<string, string>();
+        Dictionary<string, string> nameMapping = new Dictionary<string, string>();
 
-        // List of Indian names to replace real names
+        // List of sample Indian names for anonymization
         List<string> indianNames = new List<string> { "Amit", "Rahul", "Priya", "Suresh", "Anjali", "Vikram", "Pooja", "Ravi", "Neha", "Raj" };
         Random random = new Random();
 
-        // Open the Excel file
+        // Open the Excel file using ClosedXML
         using (var workbook = new XLWorkbook(config.InputFilePath))
         {
-            var worksheet = workbook.Worksheet(1); // Select the first worksheet
-            var lastRowUsed = worksheet.LastRowUsed(); // Get the last row that has data
+            var worksheet = workbook.Worksheet(1); // Access the first worksheet
+            var headerRow = worksheet.Row(1); // Get the first row (header row)
+            int lastColumn = headerRow.LastCellUsed()?.Address.ColumnNumber ?? 0;
+
+            int nameColumn = 0, panColumn = 0, accountColumn = 0;
+
+            // Debug: Print available headers to identify relevant columns
+            Console.WriteLine("Available headers:");
+            for (int col = 1; col <= lastColumn; col++)
+            {
+                string header = headerRow.Cell(col).GetString().Trim();
+                Console.WriteLine($"Column {col}: {header}");
+
+                string lowerHeader = header.ToLower();
+
+                // Identify columns based on header names
+                if (lowerHeader.Contains("name"))
+                    nameColumn = col;
+                else if (lowerHeader.Contains("pan"))
+                    panColumn = col;
+                else if (lowerHeader.Contains("account"))
+                    accountColumn = col;
+            }
+
+            // If any required column is missing, stop processing
+            if (nameColumn == 0 || panColumn == 0 || accountColumn == 0)
+            {
+                Console.WriteLine("One or more required columns were not found.");
+                return;
+            }
+
+            var lastRowUsed = worksheet.LastRowUsed();
             int lastRow = lastRowUsed != null ? lastRowUsed.RowNumber() : 1;
 
-            // Start reading from the second row (assuming the first row has column headers)
+            // Iterate through all rows (excluding header) and mask sensitive data
             for (int row = 2; row <= lastRow; row++)
             {
-                // Read Name, PAN, and Account Number from Excel
-                string name = worksheet.Cell(row, 1).GetString().Trim(); 
-                string pan = worksheet.Cell(row, 2).GetString().Trim(); 
-                string account = worksheet.Cell(row, 3).GetString().Trim(); 
+                string name = worksheet.Cell(row, nameColumn).GetString().Trim();
+                string pan = worksheet.Cell(row, panColumn).GetString().Trim();
+                string account = worksheet.Cell(row, accountColumn).GetString().Trim();
 
-                // Mask PAN number (if valid) or mark as invalid
-                if (!panMapping.ContainsKey(pan))
+                // Mask PAN numbers if they follow the correct format
+                if (!string.IsNullOrEmpty(pan))
                 {
-                    panMapping[pan] = Regex.IsMatch(pan, @"^[A-Z]{5}[0-9]{4}[A-Z]$") ? DataMasking.GenerateRandomPAN() : "Invalid PAN";
+                    if (Regex.IsMatch(pan, @"^[A-Z]{5}[0-9]{4}[A-Z]$")) // Validate PAN format
+                    {
+                        if (!panMapping.ContainsKey(pan))
+                            panMapping[pan] = DataMasking.GenerateRandomPAN();
+                        worksheet.Cell(row, panColumn).Value = panMapping[pan];
+                    }
+                    else
+                    {
+                        worksheet.Cell(row, panColumn).Value = "Invalid PAN"; // Mark invalid PANs
+                    }
                 }
-                worksheet.Cell(row, 2).Value = panMapping[pan]; // Update Excel with masked PAN
 
-                // Replace account number with a random one
-                if (!accountMapping.ContainsKey(account))
+                // Mask account numbers
+                if (!string.IsNullOrEmpty(account))
                 {
-                    accountMapping[account] = DataMasking.GenerateRandomAccountNumber();
+                    if (!accountMapping.ContainsKey(account))
+                        accountMapping[account] = DataMasking.GenerateRandomAccountNumber();
+                    worksheet.Cell(row, accountColumn).Value = accountMapping[account];
                 }
-                worksheet.Cell(row, 3).Value = accountMapping[account]; // Update Excel with new account number
 
-                // Replace name with a randomly chosen Indian name
-                if (!nameMapping.ContainsKey(name))
+                // Mask names using a predefined list of names
+                if (!string.IsNullOrEmpty(name))
                 {
-                    nameMapping[name] = indianNames[random.Next(indianNames.Count)];
+                    if (!nameMapping.ContainsKey(name))
+                        nameMapping[name] = indianNames[random.Next(indianNames.Count)];
+                    worksheet.Cell(row, nameColumn).Value = nameMapping[name];
                 }
-                worksheet.Cell(row, 1).Value = nameMapping[name]; // Update Excel with new name
             }
-            
-            // Save the modified Excel file
+
+            // Save the modified data to the output file
             workbook.SaveAs(config.OutputFilePath);
         }
+        
         Console.WriteLine("Processed file saved as " + config.OutputFilePath);
     }
 }
